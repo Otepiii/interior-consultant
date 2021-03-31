@@ -147,7 +147,7 @@ body {
 }
 
 footer {
-  margin-top: 3rem;
+  margin-top: 4rem;
   font-family: poppins;
   display: flex;
   color: #ffff;
@@ -203,7 +203,7 @@ footer {
     align-items: center;
     height: 100vh;
     width: 100%;
-    /* padding: 2rem; */
+    padding: 2rem;
     margin-top: 4rem;
     /* transform: translateY(200%); */
     animation: nav-trans 0.5s ease-in;
@@ -228,10 +228,19 @@ footer {
 
   .profile-card img {
     max-width: 15%;
+    max-height: 15%;
   }
 }
-/* Portrait and Landscape
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+Portrait
+  and
+  Landscape
+  @media
+  only
+  screen
+  and
+  (min-device-width: 375px)
+  and
+  (max-device-width: 812px) {
   html {
     font-size: 10px;
   }
@@ -245,20 +254,20 @@ footer {
     z-index: 21;
   }
   .nav-items {
-    position: absolute; */
-/* top: -100%; */
-/* z-index: 20;
+    position: absolute;
+    /* top: -100%; */
+    z-index: 20;
     display: none;
     background: #333;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    width: 100%; */
-/* padding: 2rem; */
-/* margin-top: 4rem; */
-/* transform: translateY(200%); */
-/* animation: nav-trans 0.5s ease-in;
+    width: 100%;
+    padding: 2rem;
+    margin-top: 4rem;
+    /* transform: translateY(200%); */
+    animation: nav-trans 0.5s ease-in;
   }
 
   .container {
@@ -296,9 +305,9 @@ footer {
     z-index: 21;
   }
   .nav-items {
-    position: absolute; */
-/* top: -100%; */
-/* z-index: 20;
+    position: absolute;
+    /* top: -100%; */
+    z-index: 20;
     display: none;
     background: #333;
     flex-direction: column;
@@ -307,9 +316,9 @@ footer {
     height: 100vh;
     width: 100%;
     padding: 2rem;
-    margin-top: 4rem; */
-/* transform: translateY(200%); */
-/* animation: nav-trans 0.5s ease-in;
+    margin-top: 4rem;
+    /* transform: translateY(200%); */
+    animation: nav-trans 0.5s ease-in;
   }
 
   .container {
@@ -332,4 +341,4 @@ footer {
   .profile-card img {
     max-width: 15%;
   }
-} */
+}
