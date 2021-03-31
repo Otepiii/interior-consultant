@@ -179,28 +179,7 @@ footer {
   }
 }
 
-@keyframes nav-trans {
-  0% {
-    transform: translateY(-100%);
-  }
-
-  100% {
-    transform: translateY(0%);
-  }
-}
-
-@keyframes reverse {
-  0% {
-    transform: translateY(0%);
-  }
-
-  100% {
-    transform: translateY(-100%);
-  }
-}
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+@media (min-width: 375px) and (max-width: 812px) {
   html {
     font-size: 10px;
   }
@@ -251,7 +230,8 @@ footer {
     max-width: 15%;
   }
 }
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+/* Portrait and Landscape
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   html {
     font-size: 10px;
   }
@@ -265,20 +245,20 @@ footer {
     z-index: 21;
   }
   .nav-items {
-    position: absolute;
-    /* top: -100%; */
-    z-index: 20;
+    position: absolute; */
+/* top: -100%; */
+/* z-index: 20;
     display: none;
     background: #333;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    width: 100%;
-    padding: 2rem;
-    margin-top: 4rem;
-    /* transform: translateY(200%); */
-    animation: nav-trans 0.5s ease-in;
+    width: 100%; */
+/* padding: 2rem; */
+/* margin-top: 4rem; */
+/* transform: translateY(200%); */
+/* animation: nav-trans 0.5s ease-in;
   }
 
   .container {
@@ -302,3 +282,54 @@ footer {
     max-width: 15%;
   }
 }
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  html {
+    font-size: 10px;
+  }
+
+  body {
+    padding: 1rem 0 0 4rem;
+  }
+
+  .hamburger.open {
+    display: block;
+    z-index: 21;
+  }
+  .nav-items {
+    position: absolute; */
+/* top: -100%; */
+/* z-index: 20;
+    display: none;
+    background: #333;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 2rem;
+    margin-top: 4rem; */
+/* transform: translateY(200%); */
+/* animation: nav-trans 0.5s ease-in;
+  }
+
+  .container {
+    display: grid;
+  }
+
+  .text-container {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    width: 70%;
+  }
+
+  .designer-card {
+    max-width: 200px;
+  }
+
+  .profile-card img {
+    max-width: 15%;
+  }
+} */
