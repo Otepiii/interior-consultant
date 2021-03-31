@@ -179,6 +179,13 @@ footer {
   }
 }
 
+@media (max-width: 600px) {
+  .profile-card img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 812px) {
   html {
     font-size: 10px;
@@ -227,20 +234,12 @@ footer {
   }
 
   .profile-card img {
-    max-width: 15%;
-    max-height: 15%;
+    max-width: 75px;
+    max-height: 75px;
   }
 }
-Portrait
-  and
-  Landscape
-  @media
-  only
-  screen
-  and
-  (min-device-width: 375px)
-  and
-  (max-device-width: 812px) {
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   html {
     font-size: 10px;
   }
@@ -288,7 +287,8 @@ Portrait
   }
 
   .profile-card img {
-    max-width: 15%;
+    max-width: 50px;
+    max-height: 50px;
   }
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
@@ -339,6 +339,7 @@ Portrait
   }
 
   .profile-card img {
-    max-width: 15%;
+    max-width: 75px;
+    max-height: 75px;
   }
 }
