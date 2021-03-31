@@ -23,7 +23,7 @@ body {
   border: 1px solid #ffffff;
   padding: 1rem;
   justify-content: flex-start;
-  z-index: 21;
+  z-index: 22;
 }
 
 .nav-items {
@@ -248,7 +248,7 @@ footer {
   }
 
   .profile-card img {
-    max-width: 30px;
+    max-width: 15%;
   }
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
@@ -299,6 +299,6 @@ footer {
   }
 
   .profile-card img {
-    max-width: 30px;
+    max-width: 15%;
   }
 }

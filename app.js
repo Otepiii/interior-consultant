@@ -13,6 +13,5 @@ function toggleNav() {
         nav.classList.remove("active")
         nav.classList.add("close")
         nav.style.display="none"
-
     }
 } 
